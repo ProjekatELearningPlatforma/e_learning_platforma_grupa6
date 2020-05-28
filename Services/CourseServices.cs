@@ -21,5 +21,10 @@ namespace E_Learning_Platforma.Services
       CourseData = database.GetCollection<CourseModel>("CourseCollection");//collection name
 
     }    
+    //Get all courses data from mongodb
+    public IEnumerable<CourseModel> AllCourses()
+    {
+      return CourseData.Find(x => true).ToList();
+    }   
   }
 }
