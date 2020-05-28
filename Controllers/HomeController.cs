@@ -11,11 +11,28 @@ namespace E_Learning_Platforma.Controllers
 {
   public class HomeController : Controller
   {  
+    private readonly CourseServices _courseservices;
+    
+    public HomeController(CourseServices courseservices)
+    {
+      _courseservices = courseservices;
+      
+    }
 
     //INDEX
     public IActionResult Index()
     {
       return View();
+    }
+    
+    //COURSES
+    // get all courses in index view page
+    [Authorize]
+    [HttpGet]
+    public IActionResult Courses()
+    {
+      var ListCourses = _courseservices.AllCourses();
+      return View(ListCourses);
     }
    
 
