@@ -36,13 +36,34 @@ namespace E_Learning_Platforma.Controllers
       var ListCourses = _courseservices.AllCourses();
       return View(ListCourses);
     }
-    
+    //SCHOOLS
     [Authorize]
     [HttpGet]
     public IActionResult Schools()
     {
       var ListSchools = _schoolservices.AllSchools();
       return View(ListSchools);
+    }
+    
+    //create schools get
+    [Authorize(Roles = "Admin")]
+    [HttpGet]
+    public IActionResult CreateSchool()
+    {
+      return View();
+    }
+    //create school post to server
+    [Authorize(Roles = "Admin")]
+    [HttpPost]
+    public IActionResult CreateSchool(SchoolModel model)
+    {
+      if (ModelState.IsValid)
+      {
+        _schoolservices.CreateSchool(model);
+        return RedirectToAction("Index");
+      }
+
+      return View(model);
     }
    
 
