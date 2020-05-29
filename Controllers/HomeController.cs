@@ -57,6 +57,62 @@ namespace E_Learning_Platforma.Controllers
 
       return View(model);
     }
+    
+     //edit course get request
+    [Authorize(Roles = "Admin")]
+    [HttpGet]
+    public IActionResult EditCourse(string Id)
+    {
+      if (Id == null)
+      {
+        return NotFound();
+      }
+
+      var course = _courseservices.GetOneCourse(Id);
+
+      if (course == null)
+      {
+        return NotFound();
+      }
+
+      return View(course);
+    }
+    //edit course post request
+    [Authorize(Roles = "Admin")]
+    [HttpPost]
+    public IActionResult EditCourse(string id, CourseModel model)
+    {
+      if (id != model.CourseId)
+      {
+        return NotFound();
+      }
+
+      if (ModelState.IsValid)
+      {
+        _courseservices.EditCourse(id, model);
+        return RedirectToAction("Index");
+      }
+
+      return View(model);
+    }
+    // delete course data in mongo db
+    [Authorize(Roles = "Admin")]
+    public ActionResult DeleteCourse(string id)
+    {
+      if (id == null)
+      {
+        return NotFound();
+      }
+
+      var course = _courseservices.GetOneCourse(id);
+
+      if (course == null)
+      {
+        return NotFound();
+      }
+      _courseservices.DeleteCourse(course);
+      return RedirectToAction("Index");
+    }
     //SCHOOLS
     [Authorize]
     [HttpGet]
