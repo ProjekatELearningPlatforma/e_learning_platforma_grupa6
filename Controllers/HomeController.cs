@@ -12,10 +12,12 @@ namespace E_Learning_Platforma.Controllers
   public class HomeController : Controller
   {  
     private readonly CourseServices _courseservices;
+    private readonly SchoolServices _schoolservices;
     
-    public HomeController(CourseServices courseservices)
+    public HomeController(CourseServices courseservices, SchoolServices schoolservice)
     {
       _courseservices = courseservices;
+      _schoolservices = schoolservice;
       
     }
 
@@ -33,6 +35,14 @@ namespace E_Learning_Platforma.Controllers
     {
       var ListCourses = _courseservices.AllCourses();
       return View(ListCourses);
+    }
+    
+    [Authorize]
+    [HttpGet]
+    public IActionResult Schools()
+    {
+      var ListSchools = _schoolservices.AllSchools();
+      return View(ListSchools);
     }
    
 
