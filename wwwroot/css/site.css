@@ -48,3 +48,40 @@ textarea {
         display: none;
     }
 }
+
+
+/*NAS CSS*/
+#loginForm, #registerForm {
+  margin-left: 350px;
+  margin-top: 150px;
+}
+
+.card-text.name {
+  cursor: pointer;
+}
+
+  .card-text.name ~ h6, .card-text.name ~ div {
+    display: none;
+  }
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark.w-100 {
+  background-color: #8c599a !important;
+}
+
+.navbar-inverse {
+  background-color: #8c599a;
+}
+
+  .navbar-inverse .navbar-nav > li > a,
+  .navbar-inverse .navbar-brand,
+  .navbar-inverse .navbar-link {
+    color: #000;
+  }
+
+#courses_wraper {
+  padding: 30px;
+}
+
+#selectDropDown {
+  padding: 15px;
+}
