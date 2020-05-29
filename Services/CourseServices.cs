@@ -26,5 +26,25 @@ namespace E_Learning_Platforma.Services
     {
       return CourseData.Find(x => true).ToList();
     }   
+    //create coursedata in mongodb
+    public void CreateCourse(CourseModel model)
+    {
+      CourseData.InsertOne(model);
+    }
+    //get one course from mongodb 
+    public CourseModel GetOneCourse(string id)
+    {
+      return CourseData.Find(x => x.CourseId == id).FirstOrDefault();
+    }
+    //edit course data in mongodb
+    public void EditCourse(string id, CourseModel model)
+    {
+      CourseData.ReplaceOne(x => x.CourseId == id, model);
+    }
+    //delete course in mongodb
+    public void DeleteCourse(CourseModel model)
+    {
+      CourseData.DeleteOne(x => x.CourseId == model.CourseId);
+    }   
   }
 }
