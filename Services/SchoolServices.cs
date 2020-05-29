@@ -20,5 +20,10 @@ namespace E_Learning_Platforma.Services
       SchoolData = database.GetCollection<SchoolModel>("SchoolCollection");//collection name
 
     }    
+     //Get all school data in mongodb
+    public IEnumerable<SchoolModel> AllSchools()
+    {
+      return SchoolData.Find(x => true).ToList();
+    }
   }
 }
