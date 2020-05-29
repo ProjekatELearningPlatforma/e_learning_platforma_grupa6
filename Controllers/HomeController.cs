@@ -36,6 +36,27 @@ namespace E_Learning_Platforma.Controllers
       var ListCourses = _courseservices.AllCourses();
       return View(ListCourses);
     }
+    
+    //create course get    
+    [Authorize(Roles = "Admin")]
+    [HttpGet]
+    public IActionResult CreateCourse()
+    {
+      return View();
+    }
+    //create course post to server
+    [Authorize(Roles = "Admin")]
+    [HttpPost]
+    public IActionResult CreateCourse(CourseModel model)
+    {
+      if (ModelState.IsValid)
+      {
+        _courseservices.CreateCourse(model);
+        return RedirectToAction("Index");
+      }
+
+      return View(model);
+    }
     //SCHOOLS
     [Authorize]
     [HttpGet]
