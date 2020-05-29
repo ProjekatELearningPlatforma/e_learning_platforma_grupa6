@@ -1,4 +1,8 @@
 ﻿@model IEnumerable<E_Learning_Platforma.Models.CourseModel>
+<link href="~/css/DataTables/css/dataTables.bootstrap.css" rel="stylesheet" />
+<link href="~/css/DataTables/css/jquery.dataTables.css" rel="stylesheet" />
+<script src="~/lib/DataTables/jquery.dataTables.js"></script>
+<script src="~/lib/DataTables/dataTables.bootstrap.js"></script>
    
    <div id="courses_wraper" class="row">
   <table id="courses" class="display">
@@ -27,3 +31,9 @@
     </tbody>
   </table>
 </div>
+    
+<script>
+  $(document).ready(function () {
+    $("#courses").DataTable();
+  });
+</script>
