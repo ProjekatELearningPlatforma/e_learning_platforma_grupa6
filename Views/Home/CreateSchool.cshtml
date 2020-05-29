@@ -1,1 +1,56 @@
-﻿
+﻿@model E_Learning_Platforma.Models.SchoolModel
+
+<div class="col-12">
+  <h3 class="text-center text-info my-2">CREATE SCHOOL</h3>
+  <form enctype="multipart/form-data" method="post">
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Name </lable>
+        <input asp-for="SchoolName" class="w-100  form-control" />
+        <span asp-validation-for="SchoolName" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Description</lable>
+        <input asp-for="SchoolDescription" class="w-100  form-control" />
+        <span asp-validation-for="SchoolDescription" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Link</lable>
+        <input asp-for="SchoolCourseLinkOne" class="w-100  form-control" />
+        <span asp-validation-for="SchoolCourseLinkOne" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Link</lable>
+        <input asp-for="SchoolCourseLinkTwo" class="w-100  form-control" />
+        <span asp-validation-for="SchoolCourseLinkTwo" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Link</lable>
+        <input asp-for="SchoolCourseLinkThree" class="w-100  form-control" />
+        <span asp-validation-for="SchoolCourseLinkThree" class="text-danger"></span>
+      </div>
+    </div>   
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <button type="submit" class="btn btn-primary my-2">Update</button>
+        <a type="submit" asp-action="Index" class="btn btn-primary">Cancel</a>
+      </div>
+    </div>
+
+    <div asp-validation-summary="All"></div>
+  </form>
+</div>
