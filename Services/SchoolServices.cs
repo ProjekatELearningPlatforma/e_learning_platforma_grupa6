@@ -25,5 +25,25 @@ namespace E_Learning_Platforma.Services
     {
       return SchoolData.Find(x => true).ToList();
     }
+     //create school in mongodb
+    public void CreateSchool(SchoolModel model)
+    {
+      SchoolData.InsertOne(model);
+    }
+    //single data get in mongodb
+    public SchoolModel GetOneSchool(string id)
+    {
+      return SchoolData.Find(x => x.SchoolId == id).FirstOrDefault();
+    }
+    //edit school data in mongodb
+    public void EditSchool(string id, SchoolModel model)
+    {
+      SchoolData.ReplaceOne(x => x.SchoolId == id, model);
+    }
+    //delete course in mongodb
+    public void DeleteSchool(SchoolModel model)
+    {
+      SchoolData.DeleteOne(x => x.SchoolId == model.SchoolId);
+    }    
   }
 }
