@@ -1,1 +1,39 @@
-﻿
+﻿@model E_Learning_Platforma.Models.CourseModel
+@*Creat Employe*@
+<div class="col-12">
+  <h3 class="text-center text-info my-2">CREATE COURSE</h3>
+  <form enctype="multipart/form-data" method="post">
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Name </lable>
+        <input asp-for="CourseName" class="w-100  form-control" />
+        <span asp-validation-for="CourseName" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Description </lable>
+        <input asp-for="CourseDescription" class="w-100  form-control" />
+        <span asp-validation-for="CourseDescription" class="text-danger"></span>
+      </div>
+    </div>
+
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <lable>Link</lable>
+        <input asp-for="CourseLink" class="w-100  form-control" />
+        <span asp-validation-for="CourseLink" class="text-danger"></span>
+      </div>
+    </div>
+    <div class="row m-2 justify-content-center">
+      <div class="col-6 p-0">
+        <button type="submit" class="btn btn-primary my-2">Update</button>
+        <a type="submit" asp-action="Index" class="btn btn-primary">Cancel</a>
+      </div>
+    </div>
+
+    <div asp-validation-summary="All"></div>
+  </form>
+</div>
