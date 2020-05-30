@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "w4PDux0sw7TDgEtgwo3CnMOWGsORwoLCt8KT",
+      "subType": "00"
+    }
+  },
+  "UserName": "backo@backo.com",
+  "NormalizedUserName": "BACKO@BACKO.COM",
+  "Email": "backo@backo.com",
+  "NormalizedEmail": "BACKO@BACKO.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEDOCsBkLv9n5LRpEL0xCdC5iTa24TTsGDVgI8jHd4dXCFEUmoQAGFZoj+kaSGmwgzQ==",
+  "SecurityStamp": "UZZK7EFSS7VP5JUY7B3OR245NMWIOFRD",
+  "ConcurrencyStamp": "6417cdd9-001b-42e0-baa6-60bd8b878465",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": "2020-05-24T17:19:59.559Z"
+  },
+  "Claims": [],
+  "Roles": [],
+  "Logins": [],
+  "Tokens": []
+},{
+  "_id": {
+    "$binary": {
+      "base64": "wrM6w6jDgg8zSmzCicOmwqBfwrjCv8K0woE=",
+      "subType": "00"
+    }
+  },
+  "UserName": "admin@grupa6.com",
+  "NormalizedUserName": "ADMIN@GRUPA6.COM",
+  "Email": "admin@grupa6.com",
+  "NormalizedEmail": "ADMIN@GRUPA6.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAENe9Q8xya9xd37ap4O2IXsc2C4c137q6DYDDwcOLrUrAtjsyDgfLAWc/LnRe/krJSg==",
+  "SecurityStamp": "B7QPNFUYNJNBHFAVOPBA7LL3F6WYGDXQ",
+  "ConcurrencyStamp": "e2e3a8c2-9253-4d56-a3ea-75fe5db842d1",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": "2020-05-25T15:59:57.864Z"
+  },
+  "Claims": [],
+  "Roles": [
+    {
+      "$binary": {
+        "base64": "w7lBw6p0T8KEQVLCvkDCuQEvw4fDlz4=",
+        "subType": "00"
+      }
+    }
+  ],
+  "Logins": [],
+  "Tokens": []
+}]

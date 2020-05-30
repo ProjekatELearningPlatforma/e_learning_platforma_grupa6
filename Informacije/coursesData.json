@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "5eced8aa964ab455c8e0e59a"
+  },
+  "CourseName": "Computer Algorithms in Systems Engineering",
+  "CourseLink": "https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-204-computer-algorithms-in-systems-engineering-spring-2010/",
+  "CourseDescription": "This course covers concepts of computation used in analysis of engineering systems. It includes the following topics: data structures, relational database representations of engineering data, algorithms for the solution and optimization of engineering system designs (greedy, dynamic programming, branch and bound, graph algorithms, nonlinear optimization), and introduction to complexity analysis. Object-oriented, efficient implementations of algorithms are emphasized.",
+  "CourseCategory" : "Algorithms and Data Structures"
+},{
+  "_id": {
+    "$oid": "5eced8c5964ab455c8e0e59b"
+  },
+  "CourseName": "Computational Geometry",
+  "CourseLink": "https://ocw.mit.edu/courses/mechanical-engineering/2-158j-computational-geometry-spring-2003/",
+  "CourseDescription": "Topics in surface modeling: b-splines, non-uniform rational b-splines, physically based deformable surfaces, sweeps and generalized cylinders, offsets, blending and filleting surfaces. Non-linear solvers and intersection problems. Solid modeling: constructive solid geometry, boundary representation, non-manifold and mixed-dimension boundary representation models, octrees. Robustness of geometric computations. Interval methods. Finite and boundary element discretization methods for continuum mechanics problems. Scientific visualization. Variational geometry. Tolerances. Inspection methods. Feature representation and recognition. Shape interrogation for design, analysis, and manufacturing. Involves analytical and programming assignments.",
+  "CourseCategory" : "Algorithms and Data Structures"
+},{
+  "_id": {
+    "$oid": "5eced8dd964ab455c8e0e59c"
+  },
+  "CourseName": "Identification, Estimation, and Learning",
+  "CourseLink": "https://ocw.mit.edu/courses/mechanical-engineering/2-160-identification-estimation-and-learning-spring-2006/",
+  "CourseDescription": "This course provides a broad theoretical basis for system identification, estimation, and learning. Students will study least squares estimation and its convergence properties, Kalman filters, noise dynamics and system representation, function approximation theory, neural nets, radial basis functions, wavelets, Volterra expansions, informative data sets, persistent excitation, asymptotic variance, central limit theorems, model structure selection, system order estimate, maximum likelihood, unbiased estimates, Cramer-Rao lower bound, Kullback-Leibler information distance, Akaike's information criterion, experiment design, and model validation.",
+  "CourseCategory" : "Algorithms and Data Structures"
+},{
+  "_id": {
+    "$oid": "5eced8f6964ab455c8e0e59d"
+  },
+  "CourseName": "Introduction to Numerical Analysis for Engineering",
+  "CourseLink": "https://ocw.mit.edu/courses/mechanical-engineering/2-993j-introduction-to-numerical-analysis-for-engineering-13-002j-spring-2005/",
+  "CourseDescription": "This course is offered to undergraduates and introduces students to the formulation, methodology, and techniques for numerical solution of engineering problems. Topics covered include: fundamental principles of digital computing and the implications for algorithm accuracy and stability, error propagation and stability, the solution of systems of linear equations, including direct and iterative techniques, roots of equations and systems of equations, numerical interpolation, differentiation and integration, fundamentals of finite-difference solutions to ordinary differential equations, and error and convergence analysis. The subject is taught the first half of the term.",
+  "CourseCategory" : "Algorithms and Data Structures"
+},{
+  "_id": {
+    "$oid": "5eced92d964ab455c8e0e59e"
+  },
+  "CourseName": "Introduction to Computer Science and Programming in Python",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+  "CourseDescription": "Introduction to Computer Science and Programming in Python is intended for students with little or no programming experience. It aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class uses the Python 3.5 programming language.",
+  "CourseCategory" : "Algorithms and Data Structures"
+},{
+  "_id": {
+    "$oid": "5eced947964ab455c8e0e59f"
+  },
+  "CourseName": "Decision Making in Large Scale Systems",
+  "CourseLink": "https://ocw.mit.edu/courses/mechanical-engineering/2-997-decision-making-in-large-scale-systems-spring-2004/",
+  "CourseDescription": "This course is an introduction to the theory and application of large-scale dynamic programming. Topics include Markov decision processes, dynamic programming algorithms, simulation-based algorithms, theory and algorithms for value function approximation, and policy search methods. The course examines games and applications in areas such as dynamic resource allocation, finance and queueing networks.",
+  "CourseCategory" : "Algorithms and Data Structures"
+},{
+  "_id": {
+    "$oid": "5eced982964ab455c8e0e5a0"
+  },
+  "CourseName": "Introduction to Electrical Engineering and Computer Science I",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/",
+  "CourseDescription": "This course provides an integrated introduction to electrical engineering and computer science, taught using substantial laboratory experiments with mobile robots. Our primary goal is for you to learn to appreciate and use the fundamental design principles of modularity and abstraction in a variety of contexts from electrical engineering and computer science.",
+  "CourseCategory" : "Artificial Intelligence"
+},{
+  "_id": {
+    "$oid": "5eced998964ab455c8e0e5a1"
+  },
+  "CourseName": "Artificial Intelligence",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-spring-2005/",
+  "CourseDescription": "This course introduces representations, techniques, and architectures used to build applied systems and to account for intelligence from a computational point of view. This course also explores applications of rule chaining, heuristic search, logic, constraint propagation, constrained search, and other problem-solving paradigms. In addition, it covers applications of decision trees, neural nets, SVMs and other learning paradigms.",
+  "CourseCategory" : "Artificial Intelligence"
+},{
+  "_id": {
+    "$oid": "5eced9ca964ab455c8e0e5a2"
+  },
+  "CourseName": "Mobile Autonomous Systems Laboratory",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-186-mobile-autonomous-systems-laboratory-january-iap-2005/",
+  "CourseDescription": "MASLab (Mobile Autonomous System Laboratory), also known as 6.186, is a robotics contest. The contest takes place during MIT's Independent Activities Period and participants earn 6 units of P/F credit and 6 Engineering Design Points. Teams of three to four students have less than a month to build and program sophisticated robots which must explore an unknown playing field and perform a series of tasks.",
+  "CourseCategory" : "Artificial Intelligence"
+},{
+  "_id": {
+    "$oid": "5eced9e8964ab455c8e0e5a3"
+  },
+  "CourseName": "Autonomous Robot Design Competition",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-270-autonomous-robot-design-competition-january-iap-2005/",
+  "CourseDescription": "6.270 is a hands-on, learn-by-doing class, in which participants design and build a robot that will play in a competition at the end of January. The goal for the students is to design a machine that will be able to navigate its way around the playing surface, recognize other opponents, and manipulate game objects. Unlike the machines in Design and Manufacturing I (2.007), 6.270 robots are totally autonomous, so once a round begins, there is no human intervention",
+  "CourseCategory" : "Artificial Intelligence"
+},{
+  "_id": {
+    "$oid": "5eceda13964ab455c8e0e5a4"
+  },
+  "CourseName": "Machine Learning",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/",
+  "CourseDescription": "6.867 is an introductory course on machine learning which gives an overview of many concepts, techniques, and algorithms in machine learning, beginning with topics such as classification and linear regression and ending up with more recent topics such as boosting, support vector machines, hidden Markov models, and Bayesian networks. The course will give the student the basic ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work. The underlying theme in the course is statistical inference as it provides the foundation for most of the methods covered.",
+  "CourseCategory" : "Artificial Intelligence"
+},{
+  "_id": {
+    "$oid": "5eceda24964ab455c8e0e5a5"
+  },
+  "CourseName": "Advanced Natural Language Processing",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-864-advanced-natural-language-processing-fall-2005/",
+  "CourseDescription": "This course is a graduate introduction to natural language processing - the study of human language from a computational perspective. It covers syntactic, semantic and discourse processing models, emphasizing machine learning or corpus-based methods and algorithms. It also covers applications of these methods and models in syntactic parsing, information extraction, statistical machine translation, dialogue systems, and summarization. The subject qualifies as an Artificial Intelligence and Applications concentration subject.",
+  "CourseCategory" : "Artificial Intelligence"
+},{
+  "_id": {
+    "$oid": "5eceda3b964ab455c8e0e5a6"
+  },
+  "CourseName": "Analysis and Design of Digital Control Systems",
+  "CourseLink": "https://ocw.mit.edu/courses/mechanical-engineering/2-171-analysis-and-design-of-digital-control-systems-fall-2006/",
+  "CourseDescription": "This course is a comprehensive introduction to control system synthesis in which the digital computer plays a major role, reinforced with hands-on laboratory experience. The course covers elements of real-time computer architecture; input-output interfaces and data converters; analysis and synthesis of sampled-data control systems using classical and modern (state-space) methods; analysis of trade-offs in control algorithms for computation speed and quantization effects. Laboratory projects emphasize practical digital servo interfacing and implementation problems with timing, noise, and nonlinear devices.",
+  "CourseCategory" : "Computer Design and Engineering"
+},{
+  "_id": {
+    "$oid": "5eceda50964ab455c8e0e5a7"
+  },
+  "CourseName": "Computation Structures",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/",
+  "CourseDescription": "This course introduces architecture of digital systems, emphasizing structural principles common to a wide range of technologies. It covers the topics including multilevel implementation strategies, definition of new primitives (e.g., gates, instructions, procedures, processes) and their mechanization using lower-level elements. It also includes analysis of potential concurrency, precedence constraints and performance measures, pipelined and multidimensional systems, instruction set design issues and architectural support for contemporary software structures.",
+  "CourseCategory" : "Computer Design and Engineering"
+},{
+  "_id": {
+    "$oid": "5eceda65964ab455c8e0e5a8"
+  },
+  "CourseName": "Microelectronic Devices and Circuits",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-012-microelectronic-devices-and-circuits-spring-2009/",
+  "CourseDescription": "6.012 is the header course for the department's \"Devices, Circuits and Systems\" concentration. The topics covered include: modeling of microelectronic devices, basic microelectronic circuit analysis and design, physical electronics of semiconductor junction and metal-on-silicon (MOS) devices, relation of electrical behavior to internal physical processes, development of circuit models, and understanding the uses and limitations of various models. The course uses incremental and large-signal techniques to analyze and design bipolar and field effect transistor circuits, with examples chosen from digital circuits, single-ended and differential linear amplifiers, and other integrated circuits.",
+  "CourseCategory" : "Computer Design and Engineering"
+},{
+  "_id": {
+    "$oid": "5eceda7d964ab455c8e0e5a9"
+  },
+  "CourseName": "Computer System Engineering",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/",
+  "CourseDescription": "This class covers topics on the engineering of computer software and hardware systems. Topics include techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society.",
+  "CourseCategory" : "Computer Design and Engineering"
+},{
+  "_id": {
+    "$oid": "5eceda93964ab455c8e0e5aa"
+  },
+  "CourseName": "Introductory Digital Systems Laboratory",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-111-introductory-digital-systems-laboratory-spring-2006/",
+  "CourseDescription": "6.111 is reputed to be one of the most demanding classes at MIT, exhausting many students' time and creativity. The course covers digital design topics such as digital logic, sequential building blocks, finite-state machines, FPGAs, timing and synchronization. The semester begins with lectures and problem sets, to introduce fundamental topics before students embark on lab assignments and ultimately, a digital design project. The students design and implement a final digital project of their choice, in areas such as games, music, digital filters, wireless communications, video, and graphics. The course relies on extensive use of Verilog® for describing and implementing digital logic designs on state-of-the-art FPGA.",
+  "CourseCategory" : "Computer Design and Engineering"
+},{
+  "_id": {
+    "$oid": "5ecedaae964ab455c8e0e5ab"
+  },
+  "CourseName": "Autonomous Robot Design Competition",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-270-autonomous-robot-design-competition-january-iap-2005/",
+  "CourseDescription": "6.270 is a hands-on, learn-by-doing class, in which participants design and build a robot that will play in a competition at the end of January. The goal for the students is to design a machine that will be able to navigate its way around the playing surface, recognize other opponents, and manipulate game objects. Unlike the machines in Design and Manufacturing I (2.007), 6.270 robots are totally autonomous, so once a round begins, there is no human intervention.",
+  "CourseCategory" : "Computer Design and Engineering"
+},{
+  "_id": {
+    "$oid": "5ecedafd964ab455c8e0e5ac"
+  },
+  "CourseName": "Software Construction",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-005-software-construction-spring-2016/",
+  "CourseDescription": "6.005 Software Construction introduces fundamental principles and techniques of software development, i.e., how to write software that is safe from bugs, easy to understand, and ready for change. The course includes problem sets and a final project. Important topics include specifications and invariants; testing; abstract data types; design patterns for object-oriented programming; concurrent programming and concurrency; and functional programming.",
+  "CourseCategory" : "Computer Networks"
+},{
+  "_id": {
+    "$oid": "5ecedb19964ab455c8e0e5ad"
+  },
+  "CourseName": "Introduction to EECS II: Digital Communication Systems",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/",
+  "CourseDescription": "An introduction to several fundamental ideas in electrical engineering and computer science, using digital communication systems as the vehicle. The three parts of the course—bits, signals, and packets—cover three corresponding layers of abstraction that form the basis of communication systems like the Internet.",
+  "CourseCategory" : "Computer Networks"
+},{
+  "_id": {
+    "$oid": "5ecedb2d964ab455c8e0e5ae"
+  },
+  "CourseName": "Computer System Engineering",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/",
+  "CourseDescription": "This class covers topics on the engineering of computer software and hardware systems. Topics include techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society.",
+  "CourseCategory" : "Computer Networks"
+},{
+  "_id": {
+    "$oid": "5ecedb4b964ab455c8e0e5af"
+  },
+  "CourseName": "Design and Analysis of Algorithms",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/",
+  "CourseDescription": "This is an intermediate algorithms course with an emphasis on teaching techniques for the design and analysis of efficient algorithms, emphasizing methods of application. Topics include divide-and-conquer, randomization, dynamic programming, greedy algorithms, incremental improvement, complexity, and cryptography.",
+  "CourseCategory" : "Computer Networks"
+},{
+  "_id": {
+    "$oid": "5ecedb63964ab455c8e0e5b0"
+  },
+  "CourseName": "Data Communication Networks",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-263j-data-communication-networks-fall-2002/",
+  "CourseDescription": "6.263J / 16.37J focuses on the fundamentals of data communication networks. One goal is to give some insight into the rationale of why networks are structured the way they are today and to understand the issues facing the designers of next-generation data networks. Much of the course focuses on network algorithms and their performance. Students are expected to have a strong mathematical background and an understanding of probability theory. Topics discussed include: layered network architecture, Link Layer protocols, high-speed packet switching, queueing theory, Local Area Networks, and Wide Area Networking issues, including routing and flow control.",
+  "CourseCategory" : "Computer Networks"
+},{
+  "_id": {
+    "$oid": "5ecedb77964ab455c8e0e5b1"
+  },
+  "CourseName": "High Speed Communication Circuits",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-776-high-speed-communication-circuits-spring-2005/",
+  "CourseDescription": "6.776 covers circuit level design issues of high speed communication systems, with primary focus being placed on wireless and broadband data link applications. Specific circuit topics include transmission lines, high speed and low noise amplifiers, VCO's, mixers, power amps, high speed digital circuits, and frequency synthesizers. In addition to learning analysis skills for the above items, students will gain a significant amount of experience in simulating RF circuits in SPICE and also building RF circuits within a lab project.",
+  "CourseCategory" : "Computer Networks"
+},{
+  "_id": {
+    "$oid": "5ecedc02964ab455c8e0e5b2"
+  },
+  "CourseName": "Gödel, Escher, Bach",
+  "CourseLink": "https://ocw.mit.edu/courses/experimental-study-group/es-258-goedel-escher-bach-spring-2007/",
+  "CourseDescription": "How are math, art, music, and language intertwined? How does intelligent behavior arise from its component parts? Can computers think? Can brains compute? Douglas Hofstadter probes very cleverly at these questions and more in his Pulitzer Prize winning book, \"Gödel, Escher, Bach\". In this seminar, we will read and discuss the book in depth, taking the time to solve its puzzles, appreciate the Bach pieces that inspired its dialogues, and discover its hidden tricks along the way.",
+  "CourseCategory" : "Cryptography"
+},{
+  "_id": {
+    "$oid": "5ecedc19964ab455c8e0e5b3"
+  },
+  "CourseName": "Elliptic Curves",
+  "CourseLink": "https://ocw.mit.edu/courses/mathematics/18-783-elliptic-curves-spring-2019/",
+  "CourseDescription": "This graduate-level course is a computationally focused introduction to elliptic curves, with applications to number theory and cryptography.",
+  "CourseCategory" : "Cryptography"
+},{
+  "_id": {
+    "$oid": "5ecedc2d964ab455c8e0e5b4"
+  },
+  "CourseName": "Quantum Computation",
+  "CourseLink": "https://ocw.mit.edu/courses/mathematics/18-435j-quantum-computation-fall-2003/",
+  "CourseDescription": "This course provides an introduction to the theory and practice of quantum computation. Topics covered include: physics of information processing, quantum logic, quantum algorithms including Shor's factoring algorithm and Grover's search algorithm, quantum error correction, quantum communication, and cryptography.",
+  "CourseCategory" : "Cryptography"
+},{
+  "_id": {
+    "$oid": "5ecedc44964ab455c8e0e5b5"
+  },
+  "CourseName": "Error-Correcting Codes Laboratory",
+  "CourseLink": "https://ocw.mit.edu/courses/mathematics/18-413-error-correcting-codes-laboratory-spring-2004/",
+  "CourseDescription": "This course introduces students to iterative decoding algorithms and the codes to which they are applied, including Turbo Codes, Low-Density Parity-Check Codes, and Serially-Concatenated Codes. The course will begin with an introduction to the fundamental problems of Coding Theory and their mathematical formulations. This will be followed by a study of Belief Propagation--the probabilistic heuristic which underlies iterative decoding algorithms. Belief Propagation will then be applied to the decoding of Turbo, LDPC, and Serially-Concatenated codes. The technical portion of the course will conclude with a study of tools for explaining and predicting the behavior of iterative decoding algorithms, including EXIT charts and Density Evolution.",
+  "CourseCategory" : "Cryptography"
+},{
+  "_id": {
+    "$oid": "5ecedc5d964ab455c8e0e5b6"
+  },
+  "CourseName": "Blockchain and Money",
+  "CourseLink": "https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/",
+  "CourseDescription": "This course is for students wishing to explore blockchain technology's potential use—by entrepreneurs and incumbents—to change the world of money and finance. The course begins with a review of Bitcoin and an understanding of the commercial, technical, and public policy fundamentals of blockchain technology, distributed ledgers, and smart contracts. The class then continues on to current and potential blockchain applications in the financial sector. ",
+  "CourseCategory" : "Cryptography"
+},{
+  "_id": {
+    "$oid": "5ecedc6b964ab455c8e0e5b7"
+  },
+  "CourseName": "Selected Topics in Cryptography",
+  "CourseLink": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-897-selected-topics-in-cryptography-spring-2004/",
+  "CourseDescription": "This course covers a number of advanced \"selected topics\" in the field of cryptography. The first part of the course tackles the foundational question of how to define security of cryptographic protocols in a way that is appropriate for modern computer networks, and how to construct protocols that satisfy these security definitions. For this purpose, the framework of \"universally composable security\" is studied and used. The second part of the course concentrates on the many challenges involved in building secure electronic voting systems, from both theoretical and practical points of view. In the third part, an introduction to cryptographic constructions based on bilinear pairings is given.",
+  "CourseCategory" : "Cryptography"
+}]

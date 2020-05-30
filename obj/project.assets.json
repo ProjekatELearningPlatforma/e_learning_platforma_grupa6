@@ -10844,11 +10844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\c#\\RvasProjekatSaIdentity\\SolE_Learning_Platforma\\E_Learning_Platforma\\E_Learning_Platforma.csproj",
+      "projectUniqueName": "C:\\Users\\backo\\Desktop\\gitTest\\E_Learning_Platforma.csproj",
       "projectName": "E_Learning_Platforma",
-      "projectPath": "D:\\code\\c#\\RvasProjekatSaIdentity\\SolE_Learning_Platforma\\E_Learning_Platforma\\E_Learning_Platforma.csproj",
+      "projectPath": "C:\\Users\\backo\\Desktop\\gitTest\\E_Learning_Platforma.csproj",
       "packagesPath": "C:\\Users\\backo\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\c#\\RvasProjekatSaIdentity\\SolE_Learning_Platforma\\E_Learning_Platforma\\obj\\",
+      "outputPath": "C:\\Users\\backo\\Desktop\\gitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\backo\\AppData\\Roaming\\NuGet\\NuGet.Config",

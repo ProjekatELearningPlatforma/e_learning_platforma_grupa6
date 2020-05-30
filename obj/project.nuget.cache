@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BzsSQW2JWZqeEHwGAmowMntwWqmt1JG/uDzT/LhH2sQh0nZMhILiSKSD9j/me+dni9Rl4I59c8xQFsR86yt5yA==",
+  "dgSpecHash": "/u1UUkmoOpVucheRTGYV5affgZQNcs8bZ8pAa5oYajoYdU+iul+SjDRxsTM1NRsevw31WuKxT15xPhCHGo/ngg==",
   "success": true,
-  "projectFilePath": "D:\\code\\c#\\RvasProjekatSaIdentity\\SolE_Learning_Platforma\\E_Learning_Platforma\\E_Learning_Platforma.csproj",
+  "projectFilePath": "C:\\Users\\backo\\Desktop\\gitTest\\E_Learning_Platforma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\backo\\.nuget\\packages\\aspnetcore.identity.mongodbcore\\2.1.1\\aspnetcore.identity.mongodbcore.2.1.1.nupkg.sha512",
     "C:\\Users\\backo\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",

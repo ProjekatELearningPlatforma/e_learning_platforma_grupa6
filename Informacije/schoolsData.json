@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "5ecfea5ce623de4bc8c5ab91"
+  },
+  "SchoolName": "MITx",
+  "SchoolDescription": "Each MITx course is a complete online learning experience, with extensive videos, interactive exercises, graded assessments, discussion forums, and optional certificates of completion. Some MITx courses have defined start and end dates, while others are self-paced.",
+  "SchoolCourseLinkOne": "https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-204-computer-algorithms-in-systems-engineering-spring-2010/",
+  "SchoolCourseLinkTwo": "https://ocw.mit.edu/courses/mechanical-engineering/2-158j-computational-geometry-spring-2003/",
+  "SchoolCourseLinkThree": "https://ocw.mit.edu/courses/mechanical-engineering/2-160-identification-estimation-and-learning-spring-2006/"
+},{
+  "_id": {
+    "$oid": "5ecfea9ce623de4bc8c5ab92"
+  },
+  "SchoolName": "HarvardX",
+  "SchoolDescription": "Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders in many disciplines who make a difference globally. Harvard faculty are engaged with teaching and research to push the boundaries of human knowledge. The University has twelve degree-granting Schools in addition to the Radcliffe Institute for Advanced Study.  Established in 1636, Harvard is the oldest institution of higher education in the United States. The University, which is based in Cambridge and Boston, Massachusetts, has an enrollment of over 20,000 degree candidates, including undergraduate, graduate, and professional students. Harvard has more than 360,000 alumni around the world.",
+  "SchoolCourseLinkOne": "https://www.edx.org/course/cell-biology-mitochondria",
+  "SchoolCourseLinkTwo": "https://www.edx.org/course/anatomyx-musculoskeletal-cases",
+  "SchoolCourseLinkThree": "https://www.edx.org/course/humanitarian-response-to-conflict-and-disaster"
+},{
+  "_id": {
+    "$oid": "5ecfeacbe623de4bc8c5ab93"
+  },
+  "SchoolName": "BerkeleyX",
+  "SchoolDescription": "The University of California, Berkeley was chartered in 1868, and its flagship campus — envisioned as a \"City of Learning\" — was established at Berkeley, on San Francisco Bay. Berkeley faculty consists of 1,582 full-time and 500 part-time faculty members dispersed among more than 130 academic departments and more than 80 interdisciplinary research units. Berkeley alumni have received 28 Nobel prizes, and there are eight Nobel Laureates, 32 MacArthur Fellows, and four Pulitzer Prize winners among the current faculty.",
+  "SchoolCourseLinkOne": "https://www.edx.org/course/how-to-write-an-essay",
+  "SchoolCourseLinkTwo": "https://www.edx.org/course/academic-and-business-writing",
+  "SchoolCourseLinkThree": "https://www.edx.org/course/the-foundations-of-happiness-at-work"
+},{
+  "_id": {
+    "$oid": "5ecfeaf0e623de4bc8c5ab94"
+  },
+  "SchoolName": "HKPolyUx",
+  "SchoolDescription": "We have the largest student community out of all Hong Kong's publicly-funded universities, with some 32,000 full-time and part-time students on campus annually. In addition, the University’s Student Exchange Programme offers students opportunities to study and experience different cultures at over 220 renowned universities across 28 countries and regions. Every year, around 550 PolyU students go on exchanges while a similar number of inbound exchange students come to the University.",
+  "SchoolCourseLinkOne": "https://www.edx.org/course/shared-decision-making-and-interprofessional-colla",
+  "SchoolCourseLinkTwo": "https://www.edx.org/course/frailty-in-daily-living",
+  "SchoolCourseLinkThree": "https://www.edx.org/course/human-anatomy"
+},{
+  "_id": {
+    "$oid": "5ecfeb0fe623de4bc8c5ab95"
+  },
+  "SchoolName": "SorbonneX",
+  "SchoolDescription": "Sorbonne University is a world-class research university, presenting the comprehensive disciplinary range of arts, humanities, social sciences, natural sciences, engineering and medicine. Sorbonne University is at the crossroads of diverse types of knowledge and capable of responding to the intellectual and scientific challenges of the 21st century.",
+  "SchoolCourseLinkOne": "https://www.edx.org/course/agir-pour-la-sante-des-reins",
+  "SchoolCourseLinkTwo": "https://www.edx.org/course/a-la-decouverte-du-theatre-classique-francais-to-2",
+  "SchoolCourseLinkThree": "https://www.edx.org/course/programmation-concurrente-avec-java"
+}]
