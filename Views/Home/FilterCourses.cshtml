@@ -1,1 +1,40 @@
-﻿
+﻿@model IEnumerable<E_Learning_Platforma.Models.CourseModel>
+
+<link href="~/css/DataTables/css/dataTables.bootstrap.css" rel="stylesheet" />
+<link href="~/css/DataTables/css/jquery.dataTables.css" rel="stylesheet" />
+<script src="~/lib/DataTables/jquery.dataTables.js"></script>
+<script src="~/lib/DataTables/dataTables.bootstrap.js"></script>
+
+<div id="courses_wraper" class="row">
+  <table id="courses" class="display">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Link</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var course in Model)
+      {
+      <tr>
+        <td>@course.CourseCategory</td>
+        <td>@course.CourseName</td>
+        <td>@course.CourseDescription</td>
+        <td><a href="@course.CourseLink" target="_blank">Link</a></td>
+        <td><a class="btn btn-primary" asp-route-Id="@course.CourseId" asp-action="EditCourse">Edit</a></td>
+        <td><a class="btn btn-danger" asp-action="DeleteCourse" asp-route-Id="@course.CourseId">Delete</a></td>
+      </tr>
+      }
+    </tbody>
+  </table>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $("#courses").DataTable();
+  });
+</script>
