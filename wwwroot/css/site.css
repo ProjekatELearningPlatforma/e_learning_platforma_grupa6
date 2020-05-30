@@ -85,3 +85,33 @@ textarea {
 #selectDropDown {
   padding: 15px;
 }
+
+.categoryName {
+  display: flex;
+  padding: 15px;
+}
+
+  .categoryName input[type=submit] {
+    margin-left: 15px;
+  }
+
+
+.card-body > h6 {
+  font-size: 14px;
+}
+
+.row.no-gutters {
+  border: 1px solid black;
+}
+
+  .row.no-gutters:hover {
+    background-color: #f2f2f2
+  }
+
+#schools {
+  padding: 25px;
+}
+
+#card-content {
+  padding: 15px;
+}
