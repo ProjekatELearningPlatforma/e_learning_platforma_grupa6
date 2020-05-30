@@ -3,7 +3,19 @@
 <link href="~/css/DataTables/css/jquery.dataTables.css" rel="stylesheet" />
 <script src="~/lib/DataTables/jquery.dataTables.js"></script>
 <script src="~/lib/DataTables/dataTables.bootstrap.js"></script>
-   
+  
+@using (Html.BeginForm("FilterCourses", "Home", FormMethod.Post, new { @class = "categoryName" }))
+{ <select class="form-control" name="categoryName">
+    <option selected>Select category</option>
+    <option>Algorithms and Data Structures</option>
+    <option>Artificial Intelligence</option>
+    <option>Computer Design and Engineering</option>
+    <option>Computer Networks</option>
+    <option>Cryptography</option>
+  </select>
+  <input type="submit" />
+}
+    
    <div id="courses_wraper" class="row">
   <table id="courses" class="display">
     <thead>
