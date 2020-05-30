@@ -37,6 +37,17 @@ namespace E_Learning_Platforma.Controllers
       return View(ListCourses);
     }
     
+    // filter courses by category
+    [Authorize]
+    [HttpPost]
+    public IActionResult FilterCourses(string categoryName)
+    {    
+
+      var ListCourseCategories = _courseservices.AllCoursesByCategory(categoryName);
+      return View(ListCourseCategories);
+
+    }
+    
     //create course get    
     [Authorize(Roles = "Admin")]
     [HttpGet]
