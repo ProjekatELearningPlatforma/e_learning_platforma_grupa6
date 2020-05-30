@@ -209,6 +209,12 @@ namespace E_Learning_Platforma.Controllers
       _schoolservices.DeleteSchool(school);
       return RedirectToAction("Index");
     }
+    
+     //MAPA KURSEVA
+    public IActionResult CoursesMap()
+    {
+      return View();
+    }
 
     public IActionResult Error()
     {
